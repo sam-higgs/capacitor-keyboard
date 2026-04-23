@@ -13,7 +13,7 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "CapacitorKeyboard.podspec"
+    "EventrCapacitorKeyboard.podspec"
   ],
   "author": "Ionic <hi@ionicframework.com>",
   "license": "MIT",
@@ -80,7 +80,8 @@
   },
   "capacitor": {
     "ios": {
-      "src": "ios"
+      "src": "ios",
+      "podspec": "EventrCapacitorKeyboard.podspec"
     },
     "android": {
       "src": "android"
